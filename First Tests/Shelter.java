@@ -1,18 +1,18 @@
 public class Shelter{
-    private int MAXIMUM_CAPACITY;
+    private int maximum_capacity;
     private int currentCapacity;
     private String address;
     private String name;
 
     public Shelter(int max, int cur, String add, String n){
-        MAXIMUM_CAPACITY = max;
+        maximum_capacity = max;
         currentCapacity = cur;
         address = add;
         name = n;
     }
 
     public int getMaximumCapacity(){
-        return MAXIMUM_CAPACITY;
+        return maximum_capacity;
 
     }
     public int getcurrentCapacity(){
